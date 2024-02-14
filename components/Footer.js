@@ -1,8 +1,6 @@
 export const Footer = () => {
     return (
-        <div>
-            Enter
-        </div>
+       <span>Footer</span>
     );
 }
 
