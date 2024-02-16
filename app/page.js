@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Services from "@/components/Services";
 import StatsSection from "@/components/StatsSection";
 
 export default function Home() {
@@ -7,6 +8,8 @@ export default function Home() {
       <Banner/>
 
       <StatsSection />
+
+      <Services/>
 
     </main>
   );
