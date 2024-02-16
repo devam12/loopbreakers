@@ -3,7 +3,7 @@ import ServiceCard from "./ServiceCard";
 
 export default function Services() {
     return (
-        <div className="flex flex-col mb-96">
+        <div className="flex flex-col mb-48">
             <div className="relative w-full">
                 <Image src={"/images/services-bg.jpeg"} width={400} height={100} className="w-full h-full object-cover" layout="responsive" alt="background image" />
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-gray-900 to-transparent bg-opacity-92"></div>

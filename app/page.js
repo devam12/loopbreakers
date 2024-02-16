@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-import Banner from "@/components/Banner";
-import Services from "@/components/Services";
-=======
+
 import AboutCompany from "@/components/AboutCompany";
 import ContactUs from "@/components/ContactUs";
->>>>>>> main
+import Banner from "@/components/Banner";
+import Services from "@/components/Services";
 import StatsSection from "@/components/StatsSection";
 import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
@@ -16,8 +14,9 @@ export default function Home() {
       <StatsSection />
       <AboutCompany />
       <Testimonials />
-      <ContactUs />
       <Services />
+      <ContactUs />
+
     </main>
   );
 }
