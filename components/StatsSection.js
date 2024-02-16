@@ -8,7 +8,7 @@ const StatisticBlock = ({ digit, colors, title }) => (
 );
 
 export const StatsSection = () => (
-  <div className="bg-white w-full flex flex-col md:flex-row justify-between px-8 sm:px-16 lg:px-77 py-28">
+  <div className="bg-white w-full flex flex-col md:flex-row justify-between px-8 sm:px-16 lg:px-77 pt-28">
     <StatisticBlock digit="12K+" colors="text-indigo-700" title="Project Completed" />
     <StatisticBlock digit="20K+" colors="text-pink-700" title="Industry Experience" />
     <StatisticBlock digit="10K+" colors="text-green-500" title="Happy Clients" />
