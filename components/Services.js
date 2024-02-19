@@ -12,9 +12,9 @@ export default function Services() {
             <div className="lg:px-5 -my-40">
                 <div className="flex flex-col lg:flex-row z-10 w-full justify-center items-center lg:space-x-4 lg:px-5">
                     <ServiceCard title={"UI/UX Design"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#8956B3"} svgicon="svg/ui-ux.svg" />
-                    <ServiceCard title={"UI/UX Design"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#F2BC00"} svgicon="svg/pc.svg" />
-                    <ServiceCard title={"UI/UX Design"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#F97D7F"} svgicon="svg/mobile.svg" />
-                    <ServiceCard title={"UI/UX Design"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#7DC370"} svgicon="svg/search.svg" />
+                    <ServiceCard title={"Web App"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#F2BC00"} svgicon="svg/pc.svg" />
+                    <ServiceCard title={"Mobile App"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#F97D7F"} svgicon="svg/mobile.svg" />
+                    <ServiceCard title={"Software Developer"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#7DC370"} svgicon="svg/search.svg" />
                 </div>
             </div>
 

@@ -62,12 +62,9 @@ export const Header = () => {
                 </div>
                 <div className="hidden lg:block">
                     <ul className="flex uppercase font-medium">
-                        <NavItem href="#" label="Home" />
+                        <NavItem href="/" label="Home" />
                         <NavItem href="#" label="About" mdHidden />
                         <NavItem href="#" label="Services" smHidden />
-                        <NavItem href="#" label="Portfolio" smHidden />
-                        <NavItem href="#" label="Blog" smHidden />
-                        <NavItem href="#" label="Pages" smHidden />
                         <NavItem href="#" label="Contact" />
                     </ul>
                 </div>
