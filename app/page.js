@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white pt-36">
+    <main className="min-h-screen bg-gray-100 pt-36">
       <Banner />
       <StatsSection />
       <AboutCompany />

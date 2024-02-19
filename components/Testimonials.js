@@ -1,10 +1,10 @@
 export const Testimonials = () => {
     return (
         <>
-            <div class="my-24 mx-auto md:px-6 text-black">
+            <div class="mx-auto md:px-6 text-black mb-8">
                 <section class="mb-32 text-center">
                     <h2 class="mb-8 text-3xl font-bold">Testimonials</h2>
-                    <div className="justify-center flex flex-row mb-16">
+                    <div className="justify-center flex flex-row mb-8">
                         <hr className="text-white w-1/3" />
                     </div>
                     <div class="grid gap-x-6 md:grid-cols-3 lg:gap-x-12">
