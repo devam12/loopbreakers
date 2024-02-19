@@ -4,7 +4,7 @@ export default function Banner() {
     return (
         <>
 
-            <div className="lg:flex lg:flex-row flex-col lg:justify-start ">
+            <div className="lg:flex lg:flex-row flex-col lg:justify-start xl:mx-28 2xl:mx-60">
                 <div className=" flex-1 lg:justify-start lg:ml-5 lg:mt-40">
                     <div className=" flex justify-center  w-full item-center lg:flex-row lg:justify-start">
                         <div className="bg-blue-100 py-2 sm:py-1 rounded-3xl mb-10 flex flex-col mx-3 sm:mx-0 w-fit sm:flex-row sm:pr-4">

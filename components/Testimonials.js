@@ -1,7 +1,7 @@
 export const Testimonials = () => {
     return (
         <>
-            <div class="my-24 mx-auto md:px-6">
+            <div class="my-24 mx-auto md:px-6 text-black">
                 <section class="mb-32 text-center">
                     <h2 class="mb-8 text-3xl font-bold">Testimonials</h2>
                     <div className="justify-center flex flex-row mb-16">
