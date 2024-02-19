@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const AboutCompany = () => {
     return (
-        <section class="text-gray-600 body-font bg-white">
+        <section class="text-gray-600 body-font bg-white" id="about">
             <div class="container px-5 py-24 mx-auto flex flex-wrap justify-center">
                 <Image src={"/img-1.jpg"} className="lg:w-2/5 lg:mr-8 w-full lg:h-auto h-30 object-cover object-center rounded-lg" height={100} width={350} />
                 <div class="w-full p-6 lg:w-1/2">
@@ -19,7 +19,7 @@ export const AboutCompany = () => {
                             LoopBreakers
                         </h1>
                         <p className="uppercase">
-                            CEO & Founder of Sir
+                            CEO & Founder
                         </p>
                     </div>
                         <hr className="w-1/2"/>

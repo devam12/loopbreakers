@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import { redirect } from "next/navigation";
 import { useEffect, useState } from 'react';
 
 export const Header = () => {
@@ -11,7 +12,6 @@ export const Header = () => {
         const handleScroll = () => {
             const currentScrollPos = window.pageYOffset;
 
-            // Check if scrolling down and the scroll position is below a threshold
             const scrollingDown = currentScrollPos > prevScrollPos && currentScrollPos > 100;
 
             setVisible(!scrollingDown);
@@ -27,7 +27,7 @@ export const Header = () => {
 
     return (
         <header className={`bg-white bg-opacity-60 backdrop-filter backdrop-blur-md fixed top-0 left-0 w-full transition-transform ease-in-out duration-300 transform ${visible ? 'translate-y-0' : '-translate-y-full'}`}>
-            <div className="text-white text-center flex justify-between px-8 py-4 items-center">
+            <div className="text-white text-center flex justify-between px-4 lg:px-8 py-4 items-center">
                 <div className="lg:hidden">
                     <button
                         data-drawer-target="default-sidebar"
@@ -54,26 +54,26 @@ export const Header = () => {
                 </div>
                 <div className="">
                     <Image
-                        src="https://wpolive.com/html/manit-html/assets/images/logo.svg"
+                        src="/images/logo.png"
                         className=""
-                        height={130}
-                        width={130}
+                        height={50}
+                        width={50}
                     />
                 </div>
                 <div className="hidden lg:block">
                     <ul className="flex uppercase font-medium">
                         <NavItem href="/" label="Home" />
-                        <NavItem href="#" label="About" mdHidden />
-                        <NavItem href="#" label="Services" smHidden />
-                        <NavItem href="#" label="Contact" />
+                        <NavItem href="#about" label="About" mdHidden />
+                        <NavItem href="#services" label="Services" smHidden />
+                        <NavItem href="#contact" label="Contact" />
                     </ul>
                 </div>
                 <div className="flex items-center">
-                    <div className="rounded-full bg-blue-100 p-3 mx-4">
+                    <div className="rounded-full  p-3 mx-4">
                         <Image
-                            src="https://wpolive.com/html/manit-html/assets/images/telephone.svg"
-                            height={26}
-                            width={26}
+                            src="/images/logo.png"
+                            height={30}
+                            width={30}
                         />
                     </div>
                     <div className="lg:block hidden text-black">
