@@ -22,10 +22,10 @@ export const Footer = () => {
                             <h2 class="mb-6 text-sm font-semibold text-white-900 uppercase dark:text-white">Company</h2>
                             <ul class="text-white-500 dark:text-white-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="https://flowbite.com/" class="hover:underline">About</a>
+                                    <a href="#about" class="hover:underline">About</a>
                                 </li>
                                 <li>
-                                    <a href="https://tailwindcss.com/" class="hover:underline">Careers</a>
+                                    <a href="#careers" class="hover:underline">Careers</a>
                                 </li>
                             </ul>
                         </div>
@@ -33,11 +33,11 @@ export const Footer = () => {
                             <h2 class="mb-6 text-sm font-semibold text-white-900 uppercase dark:text-white">Follow us</h2>
                             <ul class="text-white-500 dark:text-white-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">LinkedIn</a>
+                                    <a href="https://www.linkedin.com/company/loopbreakers-technologies/about/" class="hover:underline" target="_blank">LinkedIn</a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Instagram</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div>
