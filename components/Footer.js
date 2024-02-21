@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export const Footer = () => {
     return (
-        <footer style={{backgroundImage:`url('https://wpolive.com/html/manit-html/assets/images/footer-bg.jpg')`}}>
+        <footer style={{ backgroundImage: `url('https://wpolive.com/html/manit-html/assets/images/footer-bg.jpg')` }}>
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
-                        <a href="https://flowbite.com/" class="flex items-center">
-                        <Image
-                        src="/images/logo.png"
-                        alt=""
-                        className=""
-                        height={50}
-                        width={50}
-                    />
+                        <a href="/" class="flex items-center">
+                            <Image
+                                src="/images/logo.png"
+                                alt=""
+                                className=""
+                                height={50}
+                                width={50}
+                            />
                             <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">LoopBreakers Technologies</span>
                         </a>
                     </div>
@@ -44,10 +44,10 @@ export const Footer = () => {
                             <h2 class="mb-6 text-sm font-semibold text-white-900 uppercase dark:text-white">Legal</h2>
                             <ul class="text-white-500 dark:text-white-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="#" class="hover:underline">Privacy Policy</a>
+                                    <a href="/pages/policy.html" target="_blank" class="hover:underline">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                    <a href="/pages/terms-condition.html" target="_blank" class="hover:underline">Terms &amp; Conditions</a>
                                 </li>
                             </ul>
                         </div>
