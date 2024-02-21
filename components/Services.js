@@ -23,10 +23,10 @@ export default function Services() {
 
             <div className="lg:px-5 -my-48 z-10">
                 <div className="flex flex-col lg:flex-row z-10 w-full justify-center items-center lg:space-x-4 lg:px-5">
-                    <ServiceCard title={"UI/UX"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#8956B3"} svgicon="svg/ui-ux.svg" />
-                    <ServiceCard title={"Web App"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#F2BC00"} svgicon="svg/pc.svg" />
-                    <ServiceCard title={"Mobile App"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#F97D7F"} svgicon="svg/mobile.svg" />
-                    <ServiceCard title={"Reasearch"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#7DC370"} svgicon="svg/search.svg" />
+                    <ServiceCard title={"UI/UX"} desc={"We are providing the best UI/UX design. That helps you be professional."} svgcolor={"#8956B3"} svgicon="svg/ui-ux.svg" number={1}/>
+                    <ServiceCard title={"Web App"} desc={"We are providing the best Web App design. That helps you be professional."} svgcolor={"#F2BC00"} svgicon="svg/pc.svg" number={2}/>
+                    <ServiceCard title={"Mobile App"} desc={"We are providing the best Monbile App. That helps you be professional."} svgcolor={"#F97D7F"} svgicon="svg/mobile.svg" number={3}/>
+                    <ServiceCard title={"Research"} desc={"We are providing the best Research design. That helps you be professional."} svgcolor={"#7DC370"} svgicon="svg/search.svg" number={4}/>
                 </div>
             </div>
 

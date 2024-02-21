@@ -67,7 +67,7 @@ export const Header = () => {
                             <NavItem href="/" label="Home" />
                             <NavItem href="#about" label="About" mdHidden />
                             <NavItem href="#services" label="Services" smHidden />
-                            <NavItem href="#contact" label="Contact" />
+                            <NavItem href="#contact-us" label="Contact" />
                         </ul>
                     </div>
                     <div className="flex items-center">
