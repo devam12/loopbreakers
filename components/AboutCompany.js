@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export const AboutCompany = () => {
     return (
-        <section class="text-gray-600 body-font mb-12" id="about">
-            <div class="container px-5 py-24 mx-auto flex flex-wrap justify-center">
+        <section className="text-gray-600 body-font mb-12" id="about">
+            <div className="container px-5 py-24 mx-auto flex flex-wrap justify-center">
                 <Image src={"/img-1.jpg"} className="lg:w-2/5 lg:mr-8 w-full lg:h-auto h-30 object-cover object-center rounded-lg" height={100} width={350} />
-                <div class="w-full p-6 lg:w-1/2">
-                    <h2 class="sm:text-lg text-lg text-blue-900 font-medium title-font mb-4">ABOUT COMPANY</h2>
-                    <h2 class="lg:w-4/5 text-4xl font-medium mb-4">Our approach ensures flexibility, adaptability, & rapid response.</h2>
+                <div className="w-full p-6 lg:w-1/2">
+                    <h2 className="sm:text-lg text-lg text-blue-900 font-medium title-font mb-4">ABOUT COMPANY</h2>
+                    <h2 className="lg:w-4/5 text-4xl font-medium mb-4">Our approach ensures flexibility, adaptability, & rapid response.</h2>
                     <p className="sm:text-lg lg:pt-6 leading-relaxed mb-4">
                         Welcome to Manit, where innovation meets implementation, & technology transforms possibilities into realities. Established with a vision to redefine the landscape of IT solutions, we are a dynamic and forward-thinking company committed to delivering cutting-edge services.
                     </p>
@@ -22,7 +22,7 @@ export const AboutCompany = () => {
                             CEO & Founder
                         </p>
                     </div>
-                        <hr className="w-1/2"/>
+                    <hr className="w-1/2" />
                 </div>
             </div>
         </section>
